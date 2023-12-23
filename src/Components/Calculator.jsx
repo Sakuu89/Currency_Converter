@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import styles from './Calculator.module.css';
-import Dropdown from 'react-dropdown';
-import { HiSwitchHorizontal } from 'react-icons/hi';
+
 import axios from 'axios';
+import { HiSwitchHorizontal } from 'react-icons/hi';
+import Dropdown from 'react-dropdown';
 const Calculator = () => {
 
     const [input, setInput] = useState(0);
