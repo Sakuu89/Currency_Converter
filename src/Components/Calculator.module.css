@@ -10,12 +10,12 @@
     /* background-image: linear-gradient(120deg, hsl(180, 33%, 99%) 0%, #ebebee 100%); */
     background-color: cadetblue;
 }
- 
+
 .heading {
     font-family: 'Pacifico', cursive;
     font-size: 35px;
 }
- 
+
 .container {
     height: auto;
     width: 800px;
@@ -23,32 +23,32 @@
     justify-content: space-around;
     align-items: center;
 }
- 
+
 input {
     padding-left: 5px;
     font-size: 20px;
     height: 36px;
 }
- 
+
 .middle,
 .right {
     width: 120px;
     /* width: 100%; */
 }
- 
+
 .switch {
     padding: 5px;
     background-color: rgb(226, 252, 184);
     border-radius: 50%;
     cursor: pointer;
 }
- 
+
 .result {
     box-sizing: border-box;
     width: 800px;
     padding-left: 30px;
 }
- 
+
 button {
     width: 100px;
     height: 30px;
@@ -59,6 +59,7 @@ button {
     background-color: rgb(226, 252, 184);
     cursor: pointer;
 }
+
 button:hover {
     background-color: cadetblue;
     cursor: pointer;
@@ -70,7 +71,7 @@ h3,
 .switch {
     color: black;
 }
- 
+
 p {
     font-size: 30px;
 }
